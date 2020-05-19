@@ -26,14 +26,8 @@ export class CardItem  extends React.Component {
         return (
             <Grid item xs>
                 <Card className={classes.paper}>
-                    <CardHeader
-                        title={this.props.title}
-                        subheader={this.props.address}
-                    />
-                    <CardMedia
-                        image="bbq.jpg"
-                        title="bbq"
-                    />
+                    <CardHeader title={this.props.title} subheader={this.props.address} />
+                    <CardMedia image="bbq.jpg" title="bbq" />
                     <CardContent>
                         <Typography variant="body2" color="textSecondary" component="p">
                             Buy Now

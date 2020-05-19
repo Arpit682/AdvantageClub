@@ -20,18 +20,8 @@ export class CardsView extends React.Component {
         }
 
         const card = data.map(item => {
-        return (<Grid item xs>
-              <Card className={classes.paper}>
-                  <CardHeader title={item.title} subheader={item.address} />
-                  <CardMedia image="bbq.jpg" title="bbq" />
-                  <CardContent>
-                      <Typography variant="body2" color="textSecondary" component="p">
-                          Buy Now
-                      </Typography>
-                  </CardContent>
-              </Card>
-        </Grid>);
-
+        return (
+            <CardItem title={item.title} address={item.address}/>);
         });
 
         return card;
