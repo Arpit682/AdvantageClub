@@ -1,10 +1,10 @@
 import React from 'react';
-import { CSSGrid } from './components/CardsView';
+import { CardsView } from './components/CardsView';
 
 function App() {
   return (
     <div className="App">
-      <CSSGrid />
+      <CardsView />
     </div>
   );
 }
