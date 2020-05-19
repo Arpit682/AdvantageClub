@@ -14,8 +14,8 @@ export class CardItem  extends React.Component {
                     subheader={this.props.address}
                 />
                 <CardMedia
-                    image="/static/images/cards/paella.jpg"
-                    title="Paella dish"
+                    image="bbq.jpg"
+                    title="bbq"
                 />
                 <CardContent>
                     <Typography variant="body2" color="textSecondary" component="p">
